@@ -76,6 +76,14 @@ h6 {
   background: var(--tech-color);
 }
 
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--dark-color);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
 /* Navigation */
 #main-nav {
   background: #fff;
