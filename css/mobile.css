@@ -26,3 +26,12 @@
   grid-template-columns: 1fr;
   grid-column: 1;
 }
+
+/* Responsive for smartphone */
+@media (max-width: 600px) {
+  /* Stack Grid Items */
+  #showcase .showcase-container,
+  #home-articles .articles-container {
+    grid-template-columns: 1fr;
+  }
+}
